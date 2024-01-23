@@ -1,0 +1,116 @@
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ......................... 12
+2. Variables ...................... 16
+3. Estilos generales .............. 27
+-------------------- */
+
+
+/* ----- Fuente ----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ----- Variables ----- */
+* {
+	--primary-font-family: 'Poppins', sans-serif;
+	--body-bg-color: hsl(218, 48%, 95%);
+	--btn-bg-color: #4788E9;
+	--text-color: #191847;
+	--white-color: #FFFFFF;
+	--black-color: #000000;
+	--font-size: 1rem;
+	--lh-text: 22px;
+}
+
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body {
+	font-family: var(--primary-font-family);
+	background-color: var(--white-color);
+	color: var(--text-color);
+	font-size: var(--font-size);
+	line-height: var(--lh-text);
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background: #EEF2F9;
+	min-height: 100vh;
+}
+
+.container{
+	display: flex;
+	width: 60%;
+	height: 580px;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+}
+
+.img{
+	margin: 80px 60px 80px 80px;
+}
+
+div h4{
+	display: block;
+	width: 110px;
+	font-size: 12px;
+	text-align: center;
+	background: #191847;
+	color: #FFFFFF;
+	border-radius: 10px;
+	margin-top: 80px;	
+}
+
+div h2{
+	margin-right: 130px;
+	line-height: 1.5;
+}
+
+div h3{
+	font-size: 27px;
+	margin-bottom: 10px;
+}
+
+div h6{
+	margin-top: 0%;
+	color: darkgray;
+	word-spacing: 0.25em;
+}
+.btnadd{
+	width: 65%;
+	height: 40px;
+	border: none;
+	background: var(--btn-bg-color);
+	color: var(--white-color);
+	box-shadow: 0px 8px 2px 0px rgb(34, 116, 239);
+	border-radius: 5px;
+}
+
+div p{
+	font-size: 14px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+div button{
+	width: 180px;
+	height: 45px;
+	font-size: 14px;
+	margin-right: 15px;
+	border-radius: 5px;
+	justify-content: center;
+	background: #FFFFFF;
+	color: #191847;
+	border-width: 2px;
+	border-style: solid;
+	font-weight: bold;
+	border-color: rgb(174, 170, 170);
+	
+}
+
+.btnsecond{
+	padding: 10px;
+	
+}
